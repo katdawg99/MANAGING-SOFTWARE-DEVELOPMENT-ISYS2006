@@ -1,0 +1,401 @@
+/*Design by Kathryna Turi 24234155*/
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(images/stars.gif);/*https://i.gifer.com/IrF.gif
+*/
+	background-repeat: repeat;
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+	color: #837669;
+}
+h1, h2, h3 {
+	margin: 0;
+	font-family: 'Pacifico', cursive;
+	font-weight: 10;
+	color: #ECF2FF;
+}
+
+h1 { font-size: 44px; }
+
+h2 {
+	padding-top: 20px; 
+	font-size: 26px; 
+}
+ul, ol {
+	margin-top: 0;
+	line-height: 240%;
+	text-align: justify;
+	font-family: 'Alkatra', cursive;
+	font-size: 15px;
+	color: #FFFFD0;
+}
+p{
+	font-size: 15px;
+	color: #FFFFD0;
+	font-family: 'Alkatra', cursive;
+}
+
+
+a { color: #FFF4D2; }
+
+a:hover { text-decoration: none; }
+
+
+.list1 {
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+
+header {
+	width: 100%;
+	height: 74px;
+	background: rgba(63, 0, 113, 0.5);
+	border-color: transparent;
+	border-radius:10px;
+	position: fixed;
+
+}
+#header-wrapper {
+	height: 74px;
+	
+}
+/* Menu Navigation*/
+
+#menu {
+	float: left;
+	width: 680px;
+	height: 74px;
+}
+
+#menu ul {
+	margin-left: 60px;
+	padding: 25px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+	background-image:linear-gradient(to left,#2D033B, #810CAB, #C147E9, #E5B8F4);
+	color: #FFFFFF;
+	border-radius: 10px;
+	margin-right: 5px;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	padding: 4px 12px;
+	text-decoration: none;
+	font-family:'Comfortaa';
+	color: #E3DFFD;
+	text-decoration: blink; }
+
+#menu .current_page_item a {
+	color:#fff;
+	background-color:#2D033B;
+	border-radius: 10px;
+}
+#menu .current_page_item a:hover {
+	border-color: #E5B8F4;
+	padding: 10px;
+}
+#menu ul li a:hover{
+	padding:7px;
+}
+/*logo on the menu*/
+#logo{
+	float: left;
+	margin-left: 50px;
+}
+#logo img{
+	margin-right: 35px;
+	border-radius:10px;
+	width: 70px;
+	height: 70px;
+}
+/* Search */
+
+#search {
+	float: right;
+	width: 305px;
+	height: 74px;
+}
+
+#search form {
+	margin: 0;
+	padding: 36px 0 0 0;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search input {
+	float: left;
+	font: 12px Georgia, "Times New Roman", Times, serif;
+	border: none;
+}
+
+#search-text {
+	width: 135px;
+	height: 18px;
+	padding: 3px 0 0 5px;
+	background: #ECF9E4;
+	color: #658453;
+}
+
+#search-submit {
+	height: 21px;
+	margin-left: 12px;
+	background: #BE7BA2;
+	color: #FFFFFF;
+}
+
+/*Contact icons  on the index.html page*/
+.list2 {
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+.list1 li img {
+	margin: 0 30px 30px 0;
+}
+
+/* Page to contain the contents*/
+
+#page {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 45px;
+	background: rgba(21, 0, 80, 0.9); 
+	border: 5px solid #865DFF;
+}
+
+/** LOGO */
+/*Logo for all of the pages*/
+
+#main-heading {
+	height: 100px;
+	background: rgba(0,0,0,0.4);
+	border-radius: 20px;
+}
+
+#main-heading h1{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+}
+
+
+#main-heading p :hover { text-decoration: underline; }
+
+
+
+/*div wrapper and container for grid arrangment in the aboutme.html page*/
+.box-wrapper {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.box-container{
+	padding: 20px;
+}
+.box-container img{
+	border-radius: 20px;
+	border-color:rgba(243,204,255,0.6);
+	border-block-style:solid;
+	border-block-width:10px;
+}
+
+/*div wrapper and container for grid arrangement in the photos.html page*/
+.photo-grid-gallery {
+	background-color: #865DFF;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+  	padding: 5px;
+  	margin-top: 10px;
+  	border-radius: 25px;
+  	margin-bottom: 20px;
+}
+.photo-gallery{
+	margin: 5px;
+	float: left;
+	width: 180px;
+
+}
+.photo-gallery img{
+	width: 100%;
+	height: auto;
+	border-radius: 25px;
+	margin:auto;
+}
+.photo-gallery .desc {
+	padding:20px;
+	text-align: left;
+	color: #000;
+	border: 2px solid #E11299;
+	background-color: rgb(225, 18, 153, 0.5);
+	border-radius: 25px;
+}
+
+.photo-gallery .desc p{
+	color: #000000;
+}
+
+/*hover effect over the image selection*/
+div.photo-gallery:hover {
+  background-color: #F5C6EC;
+  border-radius: 25px;
+}
+
+/*div wrapper and container for the contact.html page*/
+.contact-wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+.contact-items{
+
+}
+
+.contact-items img{
+	float: right;
+	margin: 20px 0 20px 0;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: rgba(255, 234, 234, 0.5);
+	border-radius:50px;
+}
+
+.contact-items ul{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	float:left;
+}
+.contact-items li{
+	padding:5px;
+}
+.contact-items li a img{
+	width: 200px;
+	height: 200px;
+}
+.list3 {
+	list-style: none;
+	display: inline-block;
+	float: left;
+}
+
+/* Content */
+
+#content {
+	border-radius: 10px;
+	float: left;
+	width: 580px;
+}
+#content p {
+	line-height: normal;
+	padding: 5px;
+
+}
+
+
+/* preview of pages*/
+
+#preview {
+	background-color: #865DFF;
+	float: right;
+	width: 380px;
+	margin-top: auto;
+	border-radius: 10px;
+}
+
+#preview ul {
+	margin: 0;
+	padding: 0 20px 0 20px;
+	list-style: none;
+}
+
+#preview li ul {
+	line-height: 200%;
+}
+
+#preview ul li img {
+	border-radius: 10px;
+}
+
+#preview h2 {
+	margin: 0 0 20px -10px;
+	padding: 2px 0 2px 30px;
+	border-bottom: 3px solid #FFFFFF;
+	font-size: 18px;
+	color: #000;
+}
+
+
+#preview p {
+	line-height: 200%;
+	color: #B9F3FC;
+	padding: 5px;
+	color: #000;
+}
+
+
+/*div wrapper and container for photos.html page.*/
+.photo-grid {
+	
+	background-color: #865DFF;
+	display: grid;
+	grid-template-columns: auto auto auto;
+  	padding: 5px;
+  	margin-top: 10px;
+}
+/*Grid container item*/
+.photo-grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+  	border: 1px solid rgba(0, 0, 0, 0.8);
+  	padding: 50px;
+  	font-size: 10px;
+  	text-align: center;
+	
+	
+}
+
+
+/* Footer */
+
+footer {
+	text-align: center;
+	background: rgba(0,0,0,0.4);
+	border-radius: 100px;
+	margin: auto;
+}
+
+footer p {
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+	color: #B5ADA5;
+}
+
+/*Contains the icons and links*/
+footer a {
+	color: #B5ADA5;
+	line-height: normal;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align:center;
+}
+
+
+
+
