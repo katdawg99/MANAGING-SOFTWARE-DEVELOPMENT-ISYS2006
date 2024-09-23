@@ -2,8 +2,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url(images/stars.gif);/*https://i.gifer.com/IrF.gif
-*/
+	background-image: url(images/stars.gif);/*https://i.gifer.com/IrF.gif*/
 	background-repeat: repeat;
 	font-family: 'Poppins', sans-serif;
 	font-size: 13px;
@@ -36,18 +35,15 @@ p{
 	font-family: 'Alkatra', cursive;
 }
 
-
 a { color: #FFF4D2; }
 
 a:hover { text-decoration: none; }
-
 
 .list1 {
 	list-style-type: none;
 	display: grid;
 	grid-template-columns: auto auto;
 }
-
 
 header {
 	width: 100%;
@@ -56,14 +52,12 @@ header {
 	border-color: transparent;
 	border-radius:10px;
 	position: fixed;
-
 }
 #header-wrapper {
-	height: 74px;
-	
+	height: 74px;	
 }
-/* Menu Navigation*/
 
+/* Menu Navigation*/
 #menu {
 	float: left;
 	width: 680px;
@@ -93,309 +87,321 @@ header {
 	padding: 4px 12px;
 	text-decoration: none;
 	font-family:'Comfortaa';
-	color: #E3DFFD;
-	text-decoration: blink; }
+	color: #E3DFFD; 
+	text-decoration: blink; 
+}
 
 #menu .current_page_item a {
-	color:#fff;
-	background-color:#2D033B;
-	border-radius: 10px;
+	color:#fff; 
+	background-color:#2D033B; 
+	border-radius: 10px; 
 }
 #menu .current_page_item a:hover {
-	border-color: #E5B8F4;
-	padding: 10px;
+	border-color: #E5B8F4; 
+	padding: 10px; 
 }
 #menu ul li a:hover{
-	padding:7px;
+	padding:7px; 
 }
+
 /*logo on the menu*/
 #logo{
-	float: left;
-	margin-left: 50px;
+	float: left; 
+	margin-left: 50px; 
 }
 #logo img{
-	margin-right: 35px;
-	border-radius:10px;
-	width: 70px;
-	height: 70px;
+	margin-right: 35px; 
+	border-radius:10px; 
+	width: 70px; 
+	height: 70px; 
 }
-/* Search */
 
+/* Search */
 #search {
-	float: right;
-	width: 305px;
-	height: 74px;
+	float:right; 
+	width :305 px ;  
+	height :74 px ;  
 }
 
 #search form {
-	margin: 0;
-	padding: 36px 0 0 0;
+	margin :0 ;  
+	padding :36 px 0 0 0 ;  
 }
 
 #search fieldset {
-	margin: 0;
-	padding: 0;
-	border: none;
+	margin :0 ;  
+	padding :0 ;  
+	border :none ;  
 }
 
 #search input {
-	float: left;
-	font: 12px Georgia, "Times New Roman", Times, serif;
-	border: none;
+	float:left ;  
+	font :12 px Georgia, "Times New Roman", Times, serif ;  
+	border:none ;  
 }
 
 #search-text {
-	width: 135px;
-	height: 18px;
-	padding: 3px 0 0 5px;
-	background: #ECF9E4;
-	color: #658453;
+	width :135 px ;  
+	height :18 px ;  
+	padding :3 px 0 0 5 px ;  
+	background :#ECF9E4 ;  
+	color :#658453 ;  
 }
 
 #search-submit {
-	height: 21px;
-	margin-left: 12px;
-	background: #BE7BA2;
-	color: #FFFFFF;
+	height :21 px ;  
+	margin-left :12 px ;  
+	background :#BE7BA2 ;  
+	color :#FFFFFF ;  
 }
 
-/*Contact icons  on the index.html page*/
+/*Contact icons on the index.html page*/
 .list2 {
-	list-style-type: none;
-	display: grid;
-	grid-template-columns: auto auto auto auto;
+	list-style-type:none ;  
+	display:grid ;  
+	grid-template-columns:auto auto auto auto ; 
 }
 
 .list1 li img {
-	margin: 0 30px 30px 0;
+	margin :0 30 px 30 px 0 ;
 }
 
 /* Page to contain the contents*/
-
 #page {
-	width: 1000px;
-	margin: 0 auto;
-	padding: 0 45px;
-	background: rgba(21, 0, 80, 0.9); 
-	border: 5px solid #865DFF;
+	width :1000 px ;  
+	margin :0 auto ;  
+	padding :0 45 px ;   
+	background :rgba(21,0,80,0.9) ;   
+	border :5 px solid #865DFF ;
 }
 
 /** LOGO */
 /*Logo for all of the pages*/
-
 #main-heading {
-	height: 100px;
-	background: rgba(0,0,0,0.4);
-	border-radius: 20px;
+	height :100 px ;
+	background :rgba(0,0,0,0.4) ;
+	border-radius :20 px ;
 }
 
 #main-heading h1{
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	line-height: normal;
+	text-align:center ;
+	margin :0 ;   
+	padding :0 ;
+	line-height :normal ;
 }
 
+#main-heading p:hover { text-decoration :underline; }
 
-#main-heading p :hover { text-decoration: underline; }
-
-
-
-/*div wrapper and container for grid arrangment in the aboutme.html page*/
+/*div wrapper and container for grid arrangement in the aboutme.html page*/
 .box-wrapper {
-	display: grid;
-	grid-template-columns: auto auto;
+	display:grid ;   
+	grid-template-columns:auto auto ;
 }
 .box-container{
-	padding: 20px;
+	padding :20 px ;
 }
 .box-container img{
-	border-radius: 20px;
-	border-color:rgba(243,204,255,0.6);
-	border-block-style:solid;
-	border-block-width:10px;
+	border-radius :20 px ;
+	border-color :rgba(243,204,255,0.6) ;
+	border-block-style :solid ;
+	border-block-width :10 px ;
 }
 
 /*div wrapper and container for grid arrangement in the photos.html page*/
 .photo-grid-gallery {
-	background-color: #865DFF;
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-  	padding: 5px;
-  	margin-top: 10px;
-  	border-radius: 25px;
-  	margin-bottom: 20px;
+	background-color:#865DFF ;
+	display:grid ;   
+	grid-template-columns:auto auto auto auto ;
+  	padding：5 px；   
+  	margin-top：10 px；   
+  	border-radius：25 px；   
+  	margin-bottom：20 px；   
 }
 .photo-gallery{
-	margin: 5px;
-	float: left;
-	width: 180px;
-
+	margin：5 px；   
+	float:left；   
+	width：180 px；
 }
 .photo-gallery img{
-	width: 100%;
-	height: auto;
-	border-radius: 25px;
-	margin:auto;
+	width：100%；   
+	height:auto；   
+	border-radius：25 px；   
+	margin:auto；
 }
 .photo-gallery .desc {
-	padding:20px;
-	text-align: left;
-	color: #000;
-	border: 2px solid #E11299;
-	background-color: rgb(225, 18, 153, 0.5);
-	border-radius: 25px;
+	padding：20 px；   
+	text-align:left；   
+	color:#000；
+	border：2 px solid #E11299；
+	background-color：rgb(225，18，153，0.5)；   
+	border-radius：25 px；
 }
 
 .photo-gallery .desc p{
-	color: #000000;
+	color:#000000；
 }
 
 /*hover effect over the image selection*/
 div.photo-gallery:hover {
-  background-color: #F5C6EC;
-  border-radius: 25px;
+   background-color:#F5C6EC；   
+   border-radius：25 px；
 }
 
 /*div wrapper and container for the contact.html page*/
 .contact-wrapper{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-
+	display:grid；   
+	grid-template-columns：1fr1fr；
 }
 .contact-items{
 
 }
 
 .contact-items img{
-	float: right;
-	margin: 20px 0 20px 0;
-	padding: 10px;
-	border-radius: 5px;
-	background-color: rgba(255, 234, 234, 0.5);
-	border-radius:50px;
+	float:right；   
+	margin：20 px；   
+	padding：10 px；   
+	border-radius：5 px；   
+	background-color：rgba(255，234，234，0.5)；   
+	border-radius：50 px；   
 }
 
 .contact-items ul{
-	display: grid;
-	grid-template-rows: 1fr 1fr;
-	grid-template-columns: 1fr 1fr;
-	float:left;
+	display:grid；   
+	grid-template-rows：1fr1fr；   
+	grid-template-columns：1fr1fr；   
+	float:left；
 }
 .contact-items li{
-	padding:5px;
+	padding：5 px；
 }
 .contact-items li a img{
-	width: 200px;
-	height: 200px;
+	width：200 px；
+	height：200 px；
 }
 .list3 {
-	list-style: none;
-	display: inline-block;
-	float: left;
+	list-style:none；   
+	display:inline-block；   
+	float:left；
 }
 
 /* Content */
-
 #content {
-	border-radius: 10px;
-	float: left;
-	width: 580px;
+	border-radius：10 px；   
+	float:left；   
+	width：580 px；
 }
 #content p {
-	line-height: normal;
-	padding: 5px;
-
+	line-height：normal；   
+	padding：5 px；
 }
 
-
 /* preview of pages*/
-
 #preview {
-	background-color: #865DFF;
-	float: right;
-	width: 380px;
-	margin-top: auto;
-	border-radius: 10px;
+	background-color:#865DFF；   
+	float:right；   
+	width：380 px；   
+	margin-top:auto；   
+	border-radius：10 px；
 }
 
 #preview ul {
-	margin: 0;
-	padding: 0 20px 0 20px;
-	list-style: none;
+	margin：0；    
+	padding：20 px；    
+	list-style:none；
 }
 
 #preview li ul {
-	line-height: 200%;
+	line-height：200%；    
 }
 
 #preview ul li img {
-	border-radius: 10px;
+	border-radius：10 px；
 }
 
 #preview h2 {
-	margin: 0 0 20px -10px;
-	padding: 2px 0 2px 30px;
-	border-bottom: 3px solid #FFFFFF;
-	font-size: 18px;
-	color: #000;
+	margin：0 -10 px；    
+	padding ：2 px；    
+	border-bottom ：3 px solid #FFFFFF；    
+	font-size ：18 px；    
+	color ：#000；
 }
 
 
 #preview p {
-	line-height: 200%;
-	color: #B9F3FC;
-	padding: 5px;
-	color: #000;
+	line-height ：200%；    
+	color ：#B9F3FC；    
+	padding ：5 px；    
+	color ：#000；
 }
 
 
 /*div wrapper and container for photos.html page.*/
 .photo-grid {
-	
-	background-color: #865DFF;
-	display: grid;
-	grid-template-columns: auto auto auto;
-  	padding: 5px;
-  	margin-top: 10px;
+
+	background-color:#865DFF；    
+	display:grid；    
+	grid-template-columns:auto auto auto；    
+  	padding ：5 px；    
+  	margin-top ：10 px；
 }
 /*Grid container item*/
 .photo-grid-item {
-	background-color: rgba(255, 255, 255, 0.8);
-  	border: 1px solid rgba(0, 0, 0, 0.8);
-  	padding: 50px;
-  	font-size: 10px;
-  	text-align: center;
-	
-	
+	background-color ：rgba(255，255，255，0.8)；    
+  	border ：1 px solid rgba(0，0，0，0.8)；    
+  	padding ：50 px；    
+  	font-size ：10 px；    
+  	text-align:center；
+
 }
 
 
 /* Footer */
-
 footer {
-	text-align: center;
-	background: rgba(0,0,0,0.4);
-	border-radius: 100px;
-	margin: auto;
+	text-align:center；    
+	background ：rgba(0，0，0，0.4)；    
+	border-radius ：100 px；    
+	margin:auto；
 }
 
 footer p {
-	margin: 0;
-	padding: 0;
-	line-height: normal;
-	color: #B5ADA5;
+	margin ：0；    
+	padding ：0；    
+	line-height ：normal；    
+	color ：#B5ADA5；
 }
 
 /*Contains the icons and links*/
 footer a {
-	color: #B5ADA5;
-	line-height: normal;
-	padding-right: 20px;
-	padding-left: 20px;
-	text-align:center;
+	color ：#B5ADA5；    
+	line-height ：normal；
+	padding-right ：20 px；
+	padding-left ：20 px；
+	text-align:center；
 }
 
+/* Base styles (for desktop) */
+body {
+    font-size: 16px; /* Base font size for desktop */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
 
+.header { /* Header styling */
+    display:flex; /* Flex layout for header */
+    justify-content:center; /* Center content in header */
+}
 
+/* Tablet styles */
+@media (max-width:768px) { /* Media query for tablets */
+    .header { /* Adjust header layout for tablets */
+        flex-direction,column; /* Stack items vertically */
+        align-items:center; /* Center items in header */
+    }
+    
+    body { /* Adjust body font size for tablet screens */
+        font-size:14px; /* Font size for smaller screens */
+    }
+}
 
+/* Mobile styles */
+@media (max-width600px) { /* Media query
