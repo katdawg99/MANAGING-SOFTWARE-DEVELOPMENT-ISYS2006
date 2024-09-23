@@ -5,8 +5,8 @@ body {
 	background-image: url(images/stars.gif);/*https://i.gifer.com/IrF.gif*/
 	background-repeat: repeat;
 	font-family: 'Poppins', sans-serif;
-	font-size: 13px;
-	color: #837669;
+	font-size: 16px;
+	color:  #B0C4B1; /* Changed to a lighter color */ 
 }
 h1, h2, h3 {
 	margin: 0;
@@ -15,11 +15,11 @@ h1, h2, h3 {
 	color: #ECF2FF;
 }
 
-h1 { font-size: 44px; }
+h1 { font-size: 50px; }
 
 h2 {
 	padding-top: 20px; 
-	font-size: 26px; 
+	font-size: 30px; 
 }
 ul, ol {
 	margin-top: 0;
@@ -299,7 +299,7 @@ div.photo-gallery:hover {
 #preview {
 	background-color:#865DFF；   
 	float:right；   
-	width：380 px；   
+	width：370 px；   
 	margin-top:auto；   
 	border-radius：10 px；
 }
