@@ -418,3 +418,67 @@ body {
     object-fit: cover; /* Ensure images cover the area without distortion */
     border-radius: 10px; /* Optional: round corners */
 }
+
+
+/* Mobile devices (portrait and landscape) */
+@media only screen and (max-width: 768px) {
+	/* Make the header and footer full-width */
+	#header-wrapper, #footer {
+	  width: 100%;
+	}
+	
+	/* Make the menu and search bar full-width */
+	#menu, #search {
+	  width: 100%;
+	}
+	
+	/* Make the content and sidebar full-width */
+	#content, #sidebar {
+	  width: 100%;
+	}
+	
+	/* Remove the float property from the sidebar */
+	#sidebar {
+	  float: none;
+	}
+	
+	/* Make the images in the content and sidebar responsive */
+	#content img, #sidebar img {
+	  width: 100%;
+	  height: auto;
+	}
+	
+	/* Make the list items in the sidebar full-width */
+	#sidebar ul li {
+	  width: 100%;
+	}
+  }
+  
+  /* Mobile devices (portrait) */
+  @media only screen and (max-width: 480px) {
+	/* Make the menu and search bar full-width */
+	#menu, #search {
+	  width: 100%;
+	}
+	
+	/* Make the content and sidebar full-width */
+	#content, #sidebar {
+	  width: 100%;
+	}
+	
+	/* Remove the float property from the sidebar */
+	#sidebar {
+	  float: none;
+	}
+	
+	/* Make the images in the content and sidebar responsive */
+	#content img, #sidebar img {
+	  width: 100%;
+	  height: auto;
+	}
+	
+	/* Make the list items in the sidebar full-width */
+	#sidebar ul li {
+	  width: 100%;
+	}
+  }
