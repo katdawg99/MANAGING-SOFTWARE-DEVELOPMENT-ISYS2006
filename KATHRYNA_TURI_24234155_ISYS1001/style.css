@@ -403,22 +403,6 @@ body {
     }
 }
 
-/* Mobile styles */
-@media (max-width600px) { /* Media query
-
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive columns */
-    gap: 10px; /* Space between grid items */
-}
-
-.image-grid img {
-    width: 100%; /* Make images responsive */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure images cover the area without distortion */
-    border-radius: 10px; /* Optional: round corners */
-}
-
 
 /* Mobile devices (portrait and landscape) */
 @media only screen and (max-width: 768px) {
