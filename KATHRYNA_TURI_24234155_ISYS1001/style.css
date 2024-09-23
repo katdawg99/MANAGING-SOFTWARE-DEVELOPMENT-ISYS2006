@@ -396,6 +396,83 @@ footer a {
 	text-align:center;
 }
 
+/* Add this media query at the end of your CSS file */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 12px; /* Adjust font size for better readability on smaller screens */
+    }
 
+    header {
+        height: auto; /* Adjust header height for smaller screens */
+        position: static; /* Remove fixed positioning for header on smaller screens */
+    }
+
+    #menu {
+        width: 100%; /* Make the menu full width on smaller screens */
+        text-align: center; /* Center align menu items */
+    }
+
+    #menu ul {
+        margin: 0;
+        padding: 10px; /* Add padding to menu items for better spacing */
+    }
+
+    #menu li {
+        display: inline-block; /* Display menu items in a line */
+        margin: 0 5px; /* Add margin between menu items */
+    }
+
+    #logo {
+        float: none; /* Remove float for logo on smaller screens */
+        margin: 10px 0; /* Add margin for better spacing */
+    }
+
+    #search {
+        float: none; /* Remove float for search on smaller screens */
+        width: 100%; /* Make search full width */
+        text-align: center; /* Center align search input */
+    }
+
+    #search form {
+        padding: 10px 0; /* Add padding for better spacing */
+    }
+
+    #search input {
+        width: 80%; /* Adjust input width for better display */
+    }
+
+    .list1, .list2, .list3 {
+        grid-template-columns: auto; /* Adjust grid layout for smaller screens */
+    }
+
+    .photo-grid-gallery {
+        grid-template-columns: auto; /* Adjust grid layout for smaller screens */
+    }
+
+    .contact-wrapper {
+        grid-template-columns: 1fr; /* Adjust grid layout for smaller screens */
+    }
+
+    #content, #preview {
+        width: 100%; /* Make content and preview full width on smaller screens */
+    }
+
+    #preview ul {
+        padding: 0; /* Remove padding for preview list items */
+    }
+
+    #preview h2 {
+        padding: 10px 0; /* Add padding for better spacing */
+    }
+
+    footer {
+        padding: 10px; /* Add padding for better spacing */
+    }
+
+    footer a {
+        display: block; /* Display footer links as block for better alignment */
+        padding: 5px 0; /* Add padding for better spacing */
+    }
+}
 
 
