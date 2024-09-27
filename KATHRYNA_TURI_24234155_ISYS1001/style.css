@@ -432,12 +432,7 @@ body {
 	  width: 100%;
 	  height: auto;
 	}
-	
-	/* Make the list items in the sidebar full-width */
-	#sidebar ul li {
-	  width: 100%;
-	}
-  }
+
   
   /* Mobile devices (portrait) */
   @media only screen and (max-width: 480px) {
